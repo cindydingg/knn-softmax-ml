@@ -78,10 +78,3 @@ Open `knn_nosol.ipynb` or `softmax_nosol.ipynb` to explore the implementations.
 If you would like to contribute, feel free to fork this repository, make changes, and submit a pull request.
 
 ---
-
-## License
-This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
-
----
-
-### 🌟 **If you find this project useful, please ⭐ the repo!**
