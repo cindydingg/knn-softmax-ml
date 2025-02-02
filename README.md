@@ -1,4 +1,4 @@
-# 🧠 K-Nearest Neighbors & Softmax Classifiers for CIFAR-10  
+# K-Nearest Neighbors & Softmax Classifiers for CIFAR-10  
 
 This project implements **K-Nearest Nearest Neighbors (KNN) and Softmax classifiers** for **image classification** on the **CIFAR-10 dataset**. It includes **hyperparameter tuning, k-fold cross-validation, vectorization**, and **Stochastic Gradient Descent (SGD) optimization** to improve efficiency and accuracy.
 
@@ -7,11 +7,14 @@ This project implements **K-Nearest Nearest Neighbors (KNN) and Softmax classifi
 ## 📂 Project Structure
 ```plaintext
 KNN-Softmax-ML/
-│── KNN.ipynb              # Implementation of KNN classifier
-│── Softmax.ipynb          # Implementation of Softmax classifier
+│── knn_nosol.ipynb        # Implementation of KNN classifier
+│── softmax_nosol.ipynb    # Implementation of Softmax classifier
+│── knn.py                 # Python script implementing KNN
+│── softmax.py             # Python script implementing Softmax
+│── __init__.py            # Init file for potential module usage
 │── requirements.txt       # Dependencies for running the project
-│── README.md              # Project documentation (this file)
-└── data/                  # Folder to store CIFAR-10 dataset
+│── installed-packages.txt # List of installed packages
+└── README.md              # Project documentation
 ```
 
 ---
@@ -20,7 +23,7 @@ KNN-Softmax-ML/
 
 ### **1️⃣ Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/KNN-Softmax-ML.git
+git clone https://github.com/cindydingg/KNN-Softmax-ML.git
 cd KNN-Softmax-ML
 ```
 
@@ -34,7 +37,7 @@ pip install -r requirements.txt
 ```bash
 jupyter notebook
 ```
-Open `KNN.ipynb` or `Softmax.ipynb` to explore the implementations.
+Open `knn_nosol.ipynb` or `softmax_nosol.ipynb` to explore the implementations.
 
 ---
 
@@ -63,11 +66,11 @@ Open `KNN.ipynb` or `Softmax.ipynb` to explore the implementations.
 
 ## 📌 Additional Resources
 - 📄 **Jupyter Notebook Viewer**:
-  - [nbviewer](https://nbviewer.jupyter.org/github/cindydingg/KNN-Softmax-ML/blob/main/knn_nosol.ipynb)
-  - [nbviewer](https://nbviewer.jupyter.org/github/cindydingg/KNN-Softmax-ML/blob/main/softmax_nosol.ipynb)
+  - [KNN Notebook](https://nbviewer.jupyter.org/github/cindydingg/KNN-Softmax-ML/blob/main/knn_nosol.ipynb)
+  - [Softmax Notebook](https://nbviewer.jupyter.org/github/cindydingg/KNN-Softmax-ML/blob/main/softmax_nosol.ipynb)
 - 🚀 **Google Colab Links**:
-  - [KNN.ipynb](https://colab.research.google.com/github/cindydingg/KNN-Softmax-ML/blob/main/knn_nosol.ipynb)
-  - [Softmax.ipynb](https://colab.research.google.com/github/cindydingg/KNN-Softmax-ML/blob/main/softmax_nosol.ipynb)
+  - [Run KNN on Colab](https://colab.research.google.com/github/cindydingg/KNN-Softmax-ML/blob/main/knn_nosol.ipynb)
+  - [Run Softmax on Colab](https://colab.research.google.com/github/cindydingg/KNN-Softmax-ML/blob/main/softmax_nosol.ipynb)
 
 ---
 
